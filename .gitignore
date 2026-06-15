@@ -1,0 +1,46 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# 训练产物
+checkpoints/*.pth
+runs/
+*.pt
+!yolov8n-cls.pt
+
+# 数据集 (太大)
+data/Garbage_Dataset/train/
+data/Garbage_Dataset/val/
+data/Garbage_Dataset/test/
+data/Garbage_Dataset/train.cache
+data/Garbage_Dataset/val.cache
+data/Garbage_Dataset/original/
+data/Garbage_Dataset/standardized_256/
+data/Garbage_Dataset/standardized_384/
+
+# 结果
+results/*.png
+
+# 环境
+.env
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+~$*.docx
+
+# Gradio
+*.db
+flagged/
