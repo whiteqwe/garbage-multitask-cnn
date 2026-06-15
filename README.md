@@ -44,8 +44,8 @@
 │
 ├── experiment_report.tex   # 实验报告 LaTeX 源码
 ├── experiment_report.pdf   # 实验报告 PDF
-├── web_页面1.png            # Web 界面截图（识别结果）
-├── web_页面2.png            # Web 界面截图（模型对比）
+├── web页面1.png            # Web 界面截图（识别结果）
+├── web页面2.png            # Web 界面截图（模型对比）
 └── README.md
 ```
 
@@ -161,7 +161,7 @@ ResNet18 (ImageNet预训练) → 512维特征 → Dropout(0.5) → FC(512) → R
 
 | 识别结果页 | 模型对比页 |
 |:---:|:---:|
-| ![识别结果](web_页面1.png) | ![模型对比](web_页面2.png) |
+| ![识别结果](web页面1.png) | ![模型对比](web页面2.png) |
 
 ## 实验结果
 
