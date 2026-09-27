@@ -5,7 +5,7 @@
     python utils/prepare_liquid_data.py
 
 说明:
-    将 "人机大作业/照片/" 下的4类瓶子照片复制到 data/liquid_images/
+    将 "照片/" 下的4类瓶子照片复制到 data/liquid_images/
     并按 7:2:1 划分 train/val/test，生成 liquid_annotation.csv
 """
 

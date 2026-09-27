@@ -1,17 +1,18 @@
+# Bytecode & cache
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
+.Python
+.gradio/
 
-# 训练产物
-checkpoints/*.pth
+# Training artifacts & model weights
+checkpoints/
 runs/
 *.pt
 !yolov8n-cls.pt
 
-# 数据集 (太大)
+# Datasets (large files)
 data/Garbage_Dataset/train/
 data/Garbage_Dataset/val/
 data/Garbage_Dataset/test/
@@ -20,26 +21,49 @@ data/Garbage_Dataset/val.cache
 data/Garbage_Dataset/original/
 data/Garbage_Dataset/standardized_256/
 data/Garbage_Dataset/standardized_384/
+data/liquid_images/
 
-# 结果
+# Results & temporary screenshots
 results/*.png
+*截图*.png
+*运行结果*.png
 
-# 环境
+# LaTeX auxiliary & log files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.vrb
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Course assignment requirements & presentation PPTs
+作业要求/
+*.pptx
+*.ppt
+~$*.docx
+~$*.pptx
+
+# Environments
 .env
 .venv/
 venv/
+env/
+ENV/
+build/
+dist/
 *.egg-info/
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# OS
 .DS_Store
 Thumbs.db
-~$*.docx
 
 # Gradio
 *.db
